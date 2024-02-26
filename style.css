@@ -1,0 +1,108 @@
+.header > * {
+  flex-basis: 100%;
+}
+.header {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-text {
+  font-size: 18px;
+  font: family w 3px;
+  margin-top: 15px;
+  max-width: 450px;
+}
+
+.main-text {
+  margin-top: 150px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.welcome-message {
+  font-size: 36px;
+  background-color: #3882f6;
+  margin-left: 120px;
+}
+
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 35px;
+  background: #3882f6;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: azure;
+}
+
+.second-headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  font-size: 36px;
+  font-weight: bold;
+  color: salmon;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  border: solid hsl(202, 100%, 49%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 30px;
+}
+.text {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 200px;
+}
+.info {
+  margin-top: 190px;
+}
+.inspiration-text {
+  background-color: #e5e7eb;
+  margin-top: 250px;
+  height: 400px;
+  font-size: 36px;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  list-style: none;
+}
+.quote {
+  font-weight: 900;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  font-style: normal;
+}
+.image {
+  margin-top: 100px;
+  display: flex;
+  margin-right: 300px;
+  margin-bottom: 170px;
+}
