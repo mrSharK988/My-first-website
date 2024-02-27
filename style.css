@@ -145,7 +145,10 @@ button {
   height: 150px;
   width: 800px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 400px;
+
 }
 .subtext {
   color: black;
